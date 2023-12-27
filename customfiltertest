@@ -9,3 +9,4 @@ youtube.com##+js 495(set, yt.config_.openPopupConfig.supportedPopups.adBlockMess
 youtube.com##+js 495(set, Object.prototype.adBlocksFound, 0)
 youtube.com##+js 495(set, ytplayer.config.args.raw_player_response.adPlacements, [])
 youtube.com##+js 495(set, Object.prototype.hasAllowedInstreamAd, true)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
