@@ -1,0 +1,15 @@
+! Title:Custom Filter fixes
+
+youtube.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots legacyImportant)
+
+www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
+||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
+
+youtube.com##+js 495(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
+youtube.com##+js 495(set, Object.prototype.adBlocksFound, 0)
+youtube.com##+js 495(set, ytplayer.config.args.raw_player_response.adPlacements, [])
+youtube.com##+js 495(set, Object.prototype.hasAllowedInstreamAd, true)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
+www.facebook.com##[role=feed] span[id]>span[class]:first-child+span:not([class]) a[href^="?__cft__[0]="][href*="&__tn__=%2CP-R"]:upward([role=feed]>div, [role=feed]>span):style(border: yellow 7px dotted !important)
