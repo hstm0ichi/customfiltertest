@@ -19,3 +19,72 @@ facebook.com##span[id="ssrb_feed_start"] ~ div > div > div:not([class]) a[href="
 facebook.com##span[id="ssrb_feed_start"] ~ div > div > div:not([class]) span[id] > span > span > a[href="#"] span > span:has(:scope > svg > use[*|href]:not([href])):matches-css(width:/^(59|60|61|62|63)(\.|p)/i):upward(span[id="ssrb_feed_start"] ~ div > div):style(border:5px dotted pink !important; width:66% !important;)
 ! Tiếng Việt (Vietnamese)
 facebook.com##span[id="ssrb_feed_start"] ~ div > div > div:not([class]) span[id] > span > span > a[href="#"] span > span:has(:scope > svg > use[*|href]:not([href])):matches-css(width:/^(65|66|67|68)(\.|p)/i):upward(span[id="ssrb_feed_start"] ~ div > div):style(border:5px dotted pink !important; width:66% !important;)
+
+! Warning: This will break push notifications
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
+www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
+||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
+
+youtube.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots legacyImportant)
+
+! 2023-12-29 https://animevietsub.app
+||lh3.googleusercontent.com/Yay97sfa5FrJIjP29tvDbn1_qELl82vPQTiOmQLLBwmagQX8KLmIqMIU4jHXqJJCMVM41AOh9B1HSX-WqWNM9YwGhUG8yIZLF__zgeklj6nO2YFjE_CjG_fHfug_fw=s0$image
+||lh3.googleusercontent.com/mjaT-RPkoK18ZpsioZUzrpjZCkgEFAtScHe1fzVxynO9gAHx41KovZsLzgXxqwfcGU52p0oiPPcGLP3VKQpl9lBeu5JrIfM89Us6a5CjcbYFi-42bOwYxTd2dLY3=s0$image
+||lh3.googleusercontent.com/7K5NHbE7D-IELCufafVa3kvSaGhO6F7RzGvLuidKEhuP9BKYq7bgB2LX9TlcO17wJF8qg1Q69MJAbutUl0F5as4_s9KB_8R6eieMFrs0_S_qhwqIhAKSjApEzIUP=s0$image
+||lh3.googleusercontent.com/vxCjL0BkaghsXXxFYYGNq3txvjwElcxPOr49BdbwGUdw0aJoHFMHsVI7aKCx_jaGaRQjN_qXTFZUnN6UI0TxxBPcwkW8B5Nx4Nc3DXPvwlIhR_ctEbZ8VpfsjiM=s0$image
+animevietsub.app##.pc_catfix_adv
+animevietsub.app##[href="javascript:hide_catfix()"]
+||media.adop.asia/uploads/2023/12/19/download-1701997089-1702953902.png$image
+animevietsub.app##.aanetwork-flyicon-btnclose-16
+||media.adop.asia/uploads/2023/12/19/download-1701997089-1702953902.png$image
+||media.adop.asia/uploads/2023/12/19/bannerfly-5-1698381475-1702953834.png$image
+||media.adop.asia/uploads/2023/12/19/bannerfly-3-1698381351-1702953772.png$image
+||media.adop.asia/uploads/2023/12/19/bannerfly-2-1698381324-1702953664.png$image
+||media.adop.asia/uploads/2023/12/27/deal50-1703640968.png$image
+||lh3.googleusercontent.com/nHCZNLblxdEdDtMOJgOgINVBTC8dbEjC33QnPlLMiXc6Grve9c4jEIymD6k5ZCsVyFucElUKW5jSZKA6mRaM8cQkoYWBkzj6LaX0sgXfs1BB2kUabkaWVw_wtFs=s0$image
+animevietsub.app###close-and-play
+||lh3.googleusercontent.com/nHCZNLblxdEdDtMOJgOgINVBTC8dbEjC33QnPlLMiXc6Grve9c4jEIymD6k5ZCsVyFucElUKW5jSZKA6mRaM8cQkoYWBkzj6LaX0sgXfs1BB2kUabkaWVw_wtFs=s0$image
+animevietsub.app###invideo_wrapper
+
+! 2023-12-31 https://animevietsub.app
+animevietsub.app##.aanetwork-flyicon-box
+
+! 2024-01-02 https://animevietsub.app
+animevietsub.app##.ad-center-header.Adv > div > center
+
+! 2024-01-03 https://animevietsub.app
+animevietsub.app##.ad-center-980.Adv > div > center
+
+! 2024-01-05 https://animevietsub.app
+animevietsub.app##center
+
+! 2024-01-06 https://animevietsub.io
+animevietsub.app##.ad-center-header.Adv > div > center
+animevietsub.app###invideo_wrapper
+||media.adop.asia/uploads/2024/01/07/bannerfly-3-1698381351-1704590475.png$image
+||media.adop.asia/*$image
+||media.adop.asia/uploads/*$image
+||media.adop.asia/uploads/2024/01/07/bannerfly-3-1698381351-1704590475.png$image
+animevietsub.app##.aanetwork-flyicon-btnclose-16
+||media.adop.asia/uploads/2024/01/07/bannerfly-3-1698381351-1704590475.png$image
+media.adop.asia/*$domain=animevietsub.app,image
+
+! 2024-01-07 https://animevietsub.app
+animevietsub.app##.ad-center-980.Adv
+animevietsub.app###hide_catfix
+animevietsub.app##.ad-center-980.Ads
+
+! 2024-04-11 https://animevietsub.day
+||lh3.googleusercontent.com/Udg-FImkM-C1RpihjcDwivbm5JpJK2EY0lC1CzvWUniKntIYDPNx3CawVmppYQxecoGj_fyMKVd6xIhC7QTBIHphld6cUu7sFfPhdV3FtgfFq1ARh6MlcO2tBmvN=s0$image
+
+! 2024-05-22 https://www.youtube.com
+www.youtube.com###chatframe
+www.youtube.com###chat
+
+! 12 thg 6, 2024 https://dbdiagram.io
+||holistics-cdn.s3.amazonaws.com/dbdiagram/ad1.png?utm_source=dbdiagram&utm_medium=ads$image
+dbdiagram.io##.\!rounded-r-lg.p-4.justify-center.flex-col.flex.grow
+dbdiagram.io##.no-underline.justify-between.flex.shadow-lg.corner-banner
+
